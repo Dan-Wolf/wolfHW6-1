@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Compile myApp.cpp and derek_LED.cpp and create executable myApp"
+g++ myApp.cpp derek_LED.cpp -o myApp
+echo "Finished"
